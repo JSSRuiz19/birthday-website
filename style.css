@@ -1,8 +1,17 @@
+/* ======================================
+   RESET
+====================================== */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
+
+
+/* ======================================
+   BODY
+====================================== */
 
 body{
     background-image:url("images/RoseBGD.jpg");
@@ -15,7 +24,13 @@ body{
     min-height:100vh;
 }
 
-.hero{
+
+/* ======================================
+   HERO SECTION
+====================================== */
+
+#hero{
+
     height:100vh;
 
     display:flex;
@@ -27,23 +42,118 @@ body{
     text-align:center;
 
     padding:30px;
+
 }
 
-h1{
-    font-size:5.0rem;
+#hero h1{
+
+    font-size:5rem;
+
     margin:20px 0;
-    color:#ff6b88;
-    -webkit-text-stroke: 3px #4B2E2E;
+
+    color:#fc839b;
+
+    -webkit-text-stroke:2.7px #4B2E2E;
+
 }
 
-p{
-    font-size:1.2rem;
+#hero p{
+
+    font-size:2rem;
+
     margin-bottom:40px;
+
+    color:#f75777;
+
+    -webkit-text-stroke:.5px #4B2E2E;
+
 }
+
+
+/* ======================================
+   LETTER SECTION
+====================================== */
+
+#letter{
+
+    display:none;
+
+    min-height:100vh;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+#letter h2{
+
+    font-size:3rem;
+
+    margin-bottom:30px;
+
+    color:#f75777;
+
+    -webkit-text-stroke:.5px #4B2E2E;
+
+}
+
+
+/* ======================================
+   LETTER PAGES
+====================================== */
+
+.page{
+
+    display:none;
+
+    background:rgba(255,248,243,.95);
+
+    width:90%;
+
+    max-width:700px;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+#page0{
+
+    display:block;
+
+}
+
+.page p{
+
+    font-size:1.4rem;
+
+    line-height:1.8;
+
+    color:#5A3E36;
+
+    -webkit-text-stroke:0;
+
+}
+
+
+/* ======================================
+   BUTTONS
+====================================== */
 
 button{
+
     border:none;
+
     background:white;
+
     color:#ff4f91;
 
     padding:16px 36px;
@@ -55,8 +165,23 @@ button{
     cursor:pointer;
 
     transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
 }
 
 button:active{
+
     transform:scale(.95);
+
+}
+
+#nextBtn{
+
+    margin-top:30px;
+
 }
