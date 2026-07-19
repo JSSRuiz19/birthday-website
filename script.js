@@ -47,8 +47,8 @@ function typeMessage(text){
 const pageStickers = [
 
     [
-        {src:"1x/NurseStickers/Badge.png", top:"8%", left:"5%"},
-        {src:"1x/NurseStickers/HeartTool.png", top:"70%", right:"5%"}
+        {src:"1x/NurseStickers/Badge.png", top:"5%", left:"5%"},
+        {src:"1x/NurseStickers/HeartTool.png", top:"60%", right:"5%"}
     ],
 
     [
