@@ -38,7 +38,7 @@
 
     position:absolute;
 
-    width:80px;
+    width:clamp(40px, 10vw, 70px);
 
 
 } 
@@ -168,7 +168,7 @@ body{
     border: 2px solid #f75777;
     border-radius: 25px;
     width: 90%;
-    max-width: 700px;
+    max-width: 750px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0,0,0,.25);
     margin-bottom: 40px;
