@@ -13,7 +13,7 @@ const ending = document.getElementById("ending");
 const typewriter = document.getElementById("typewriter");
 
 const endingText =
-`Thank you for taking your time to read this. 
+`Thank you for taking time to read this. 
 I hope this made you smile and feel special. 
 Remember that I'll always be here for you if you ever need anything. 
 Again, sorry for the hersey bar 🍫
