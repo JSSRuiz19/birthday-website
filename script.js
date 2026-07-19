@@ -16,7 +16,7 @@ const endingText =
 `Thank you for taking time to read this. 
 I hope this made you smile and feel special. 
 Remember that I'll always be here for you if you ever need anything. 
-Again, sorry for the hersey bar 🍫
+Again, sorry for the Hershey bar 🍫
 
 🌹
 -Joseph`;
