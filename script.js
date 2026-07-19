@@ -48,7 +48,7 @@ const pageStickers = [
 
     [
         {src:"1x/NurseStickers/Badge.png", top:"5%", left:"5%"},
-        {src:"1x/NurseStickers/HeartTool.png", top:"60%", right:"5%"}
+        {src:"1x/NurseStickers/HeartTool.png", top:"80%", right:"5%"}
     ],
 
     [
@@ -57,7 +57,7 @@ const pageStickers = [
     ],
 
     [
-        {src:"1x/NurseStickers/Nurse pen.png", top:"15%", left:"8%"},
+        {src:"1x/NurseStickers/Nurse pen.png", top:"9%", left:"8%"},
         {src:"1x/NurseStickers/Pressure.png", bottom:"12%", right:"8%"}
     ],
 
